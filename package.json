@@ -35,5 +35,19 @@
   },
   "devDependencies": {
     "eslint": "^4.3.0"
-  }
+  },
+  "apps": [
+    {
+      "script": "index.js",
+      "watch": "true",
+      "name": "Elodie",
+      "instance_var": "INSTANCE_ID",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
 }
